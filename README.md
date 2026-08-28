@@ -1,4 +1,4 @@
-#Bootcamp git project
+#Bootcamp devops repo latihan
 #Sesi git 1
 ##Tujuan
 tambah dihujung fail
