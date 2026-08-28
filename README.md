@@ -1,4 +1,4 @@
-#Bootcamp devops repo latihan
+#Projek bootcamp git 2026
 #Sesi git 1
 ##Tujuan
 tambah dihujung fail
