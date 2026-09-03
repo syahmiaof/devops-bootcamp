@@ -4,3 +4,4 @@
 tambah dihujung fail
 ## Senarai Arahan
 - git init / git add / git commit## Tarikh
+## Diubah dari salinan kedua
