@@ -1,0 +1,5 @@
+{
+    "UserId": "AIDA32OH3BU2JRNTSVOAU",
+    "Account": "812704795956",
+    "Arn": "arn:aws:iam::812704795956:user/antigravity"
+}
