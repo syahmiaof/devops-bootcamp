@@ -1,0 +1,17 @@
+[
+    [
+        "nat-0af44fdfc016ab957",
+        "available"
+    ],
+    [
+        "nat-084dbf38fd811fab8",
+        "deleted"
+    ]
+]
+[
+    "13.215.72.107",
+    "13.250.72.226"
+]
+[
+    "812704795956.dkr.ecr.ap-southeast-1.amazonaws.com/devops-bootcamp/syahmiaof19"
+]
