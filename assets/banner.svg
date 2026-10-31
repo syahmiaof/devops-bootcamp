@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f0d" />
+      <stop offset="50%" stop-color="#101713" />
+      <stop offset="100%" stop-color="#141f1a" />
+    </linearGradient>
+    <linearGradient id="mintGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60E1B5" />
+      <stop offset="100%" stop-color="#40C095" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#60E1B5" stroke-opacity="0.05" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGrad)" />
+  <rect width="1200" height="400" fill="url(#grid)" />
+  <rect x="1" y="1" width="1198" height="398" fill="none" stroke="#22332a" stroke-width="2" rx="12" />
+
+  <!-- Title Section -->
+  <text x="600" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#60E1B5" text-anchor="middle" letter-spacing="2">DEVOPS BOOTCAMP 2026</text>
+  <text x="600" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#99b8a8" text-anchor="middle">Cloud Infrastructure · Docker Containerization · Cloudflare Zero Trust · AWS Architecture</text>
+
+  <!-- 4 Pillars Cards -->
+  <!-- Card 1: Linux & Git -->
+  <g transform="translate(60, 140)">
+    <rect width="250" height="200" rx="8" fill="#141e18" stroke="#2a4235" stroke-width="1.5" />
+    <circle cx="35" cy="35" r="16" fill="#1b2a22" />
+    <text x="35" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#60E1B5" text-anchor="middle">🐧</text>
+    <text x="65" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Linux &amp; Git</text>
+    <line x1="20" y1="65" x2="230" y2="65" stroke="#2a4235" stroke-width="1" />
+    <text x="25" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• Ubuntu 24/26 LTS (WSL2)</text>
+    <text x="25" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• Bash Automation &amp; Scripts</text>
+    <text x="25" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• Branching &amp; Collaboration</text>
+    <text x="25" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#60E1B5">✓ Version Control Hygiene</text>
+  </g>
+
+  <!-- Card 2: AWS Cloud -->
+  <g transform="translate(330, 140)">
+    <rect width="250" height="200" rx="8" fill="#141e18" stroke="#2a4235" stroke-width="1.5" />
+    <circle cx="35" cy="35" r="16" fill="#1b2a22" />
+    <text x="35" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#60E1B5" text-anchor="middle">☁️</text>
+    <text x="65" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#ffffff">AWS Cloud</text>
+    <line x1="20" y1="65" x2="230" y2="65" stroke="#2a4235" stroke-width="1" />
+    <text x="25" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• IAM Governance &amp; Security</text>
+    <text x="25" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• EC2 Compute &amp; Security Groups</text>
+    <text x="25" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• S3 Storage &amp; CloudWatch</text>
+    <text x="25" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#60E1B5">✓ VPC Network Topology</text>
+  </g>
+
+  <!-- Card 3: Cloudflare Edge -->
+  <g transform="translate(600, 140)">
+    <rect width="250" height="200" rx="8" fill="#141e18" stroke="#2a4235" stroke-width="1.5" />
+    <circle cx="35" cy="35" r="16" fill="#1b2a22" />
+    <text x="35" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#60E1B5" text-anchor="middle">🛡️</text>
+    <text x="65" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Cloudflare Edge</text>
+    <line x1="20" y1="65" x2="230" y2="65" stroke="#2a4235" stroke-width="1" />
+    <text x="25" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• Distributed Anycast DNS</text>
+    <text x="25" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• SSL/TLS Strict Encryption</text>
+    <text x="25" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• Zero Trust Cloudflare Tunnel</text>
+    <text x="25" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#60E1B5">✓ Zero Port Forwarding</text>
+  </g>
+
+  <!-- Card 4: Docker Containers -->
+  <g transform="translate(870, 140)">
+    <rect width="250" height="200" rx="8" fill="#141e18" stroke="#2a4235" stroke-width="1.5" />
+    <circle cx="35" cy="35" r="16" fill="#1b2a22" />
+    <text x="35" y="41" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#60E1B5" text-anchor="middle">📦</text>
+    <text x="65" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Docker Containers</text>
+    <line x1="20" y1="65" x2="230" y2="65" stroke="#2a4235" stroke-width="1" />
+    <text x="25" y="95" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• Minimal Alpine Multi-stage</text>
+    <text x="25" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• Volume &amp; Port Isolation</text>
+    <text x="25" y="155" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#a0c0b0">• Daeng Kuning CMS Container</text>
+    <text x="25" y="185" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#60E1B5">✓ Immutable Delivery</text>
+  </g>
+</svg>
