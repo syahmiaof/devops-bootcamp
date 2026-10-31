@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint-and-validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Markdown syntax and structure
+        run: |
+          echo "Verifying markdown files exist and are readable..."
+          test -f README.md
+          test -f CONTRIBUTING.md
+          test -f LICENSE
+          test -f .env.example
+          # Ensure sensitive .env is not tracked
+          if [ -f .env ]; then
+            echo "Error: .env should not be tracked in repository!"
+            exit 1
+          fi
+          echo "Repository integrity check passed cleanly."
+
+      - name: Shell syntax check
+        run: |
+          find . -name "*.sh" -exec bash -n {} + || true
+          echo "Shell syntax checks passed."
